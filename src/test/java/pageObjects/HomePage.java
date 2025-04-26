@@ -26,11 +26,12 @@ public class HomePage extends BasePage {
 		super(driver);
 	}
 
+	//Finding all locators of homepage
 	@FindBy(id = "txtStationFrom")
-	WebElement fromStation;
+	private WebElement fromStation;
 
 	@FindBy(css = ".autocomplete>div")
-	List<WebElement> stationList;
+	private List<WebElement> stationList;
 
 	public void selectStationFromDropDown(String stationName, int index) {
 	

@@ -1,0 +1,18 @@
+/test-output/
+/Reports/
+/logs/
+/target/
+# Maven build output
+target/
+# Logs
+logs/
+*.log
+# Eclipse metadata
+.settings/
+.classpath
+.project
+
+# Other generated files
+*.class
+bin/
+tmp/
